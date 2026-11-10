@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Felipe Ferraggine</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- / Header / -->
+  <header>
+    <div class="contenedor nav-flex">
+      <a href="#inicio" class="logo">Felipe Ferraggine</a>
+      <div class="header-acciones">
+        <button id="btn-theme" class="btn-theme" aria-label="Tema">🌙</button>
+        <button id="btn-menu" class="btn-menu" aria-label="Menú">☰</button>
+      </div>
+      <nav id="nav-links">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- / Inicio / -->
+    <section id="inicio" class="hero">
+      <div class="contenedor hero-flex">
+        <div class="hero-texto">
+          <span class="badge">Estudiante de Programación - 7ºM</span>
+          <h1>Hola, soy <span>Felipe</span></h1>
+          <p>Estudio en la Escuela Técnica Nº 2 de Tandil. Me apasiona el desarrollo web y la tecnología.</p>
+          <div class="hero-botones">
+            <a href="#proyectos" class="btn btn-primario">Ver Proyectos</a>
+            <a href="#contacto" class="btn btn-secundario">Contacto</a>
+          </div>
+        </div>
+        <div class="hero-foto-container">
+          <img src="img/felipe.jpg" alt="Felipe Ferraggine" class="hero-foto">
+        </div>
+      </div>
+    </section>
+
+    <!-- / Sobre mi / -->
+    <section id="sobre-mi" class="seccion">
+      <div class="contenedor">
+        <h2>Sobre mí</h2>
+        <div class="sobre-mi-grid">
+          <div class="bio">
+            <p>Mi nombre es <strong>Felipe Ferraggine</strong>, tengo 18 años y soy alumno de 7º año en la Escuela Técnica Nº 2 con orientación en Programación.</p>
+            <p>Me considero una persona sociable, responsable y con muchas ganas de seguir aprendiendo en el desarrollo de software.</p>
+            <p>Además de la programación, me apasiona el fútbol (soy hincha de Boca Juniors) y el básquet, teniendo como referente a Stephen Curry.</p>
+          </div>
+          <div class="datos">
+            <ul>
+              <li><strong>Nombre:</strong> Felipe Ferraggine</li>
+              <li><strong>Edad:</strong> 18 años</li>
+              <li><strong>Nacimiento:</strong> 20 de junio de 2008</li>
+              <li><strong>Colegio:</strong> Escuela Técnica Nº 2</li>
+              <li><strong>Curso:</strong> 7ºM - Programación</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- / Habilidades / -->
+    <section id="habilidades" class="seccion seccion-alt">
+      <div class="contenedor">
+        <h2>Habilidades</h2>
+        <div class="grid-habilidades">
+          <div class="tarjeta-habilidad">
+            <h3>HTML & CSS</h3>
+            <p>Estructuración semántica y diseño web adaptable.</p>
+          </div>
+          <div class="tarjeta-habilidad">
+            <h3>JavaScript</h3>
+            <p>Lógica de programación e interactividad web.</p>
+          </div>
+          <div class="tarjeta-habilidad">
+            <h3>Python</h3>
+            <p>Desarrollo de aplicaciones y lógica de programación.</p>
+          </div>
+          <div class="tarjeta-habilidad">
+            <h3>Pascal</h3>
+            <p>Fundamentos de lógica de la escuela técnica.</p>
+          </div>
+          <div class="tarjeta-habilidad">
+            <h3>Git & GitHub</h3>
+            <p>Control de versiones y publicación de páginas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- / Proyectos / -->
+    <section id="proyectos" class="seccion">
+      <div class="contenedor">
+        <h2>Mis Proyectos</h2>
+        <div class="grid-proyectos">
+          <article class="tarjeta-proyecto">
+            <div class="img-container">
+              <img src="img/gymly-portada.jpeg" alt="Gymly">
+            </div>
+            <div class="info-proyecto">
+              <h3>Gymly</h3>
+              <p>Aplicación para la gestión de gimnasios y seguimiento de rutinas.</p>
+              <div class="tags">
+                <span>Gestión</span>
+                <span>Web App</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="tarjeta-proyecto">
+            <div class="img-container">
+              <img src="img/amemt-logo.png" alt="AMEMT">
+            </div>
+            <div class="info-proyecto">
+              <h3>Sistema AMEMT</h3>
+              <p>Sistema para inscripción a exámenes finales de alumnos del instituto AMEMT.</p>
+              <div class="tags">
+                <span>Inscripciones</span>
+                <span>Sistema</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="tarjeta-proyecto">
+            <div class="img-container">
+              <img src="img/naruto-logo.png" alt="RecoManga">
+            </div>
+            <div class="info-proyecto">
+              <h3>RecoManga</h3>
+              <p>Plataforma para recomendar y descubrir títulos de manga y anime.</p>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- / Contacto / -->
+    <section id="contacto" class="seccion seccion-alt">
+      <div class="contenedor">
+        <h2>Contacto</h2>
+        <p class="subtitulo">Podés contactarme por estos medios.</p>
+        <div class="contacto-flex">
+          <div class="box-contacto">
+            <h3>Instagram</h3>
+            <p><a href="https://instagram.com/feli__ferra" target="_blank" rel="noopener">feli__ferra</a></p>
+          </div>
+          <div class="box-contacto">
+            <h3>Email</h3>
+            <p><a href="mailto:felipeferraggine@gmail.com">felipeferraggine@gmail.com</a></p>
+          </div>
+          <div class="box-contacto">
+            <h3>Teléfono</h3>
+            <p><a href="tel:+542494123456">2494-123456</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- / Footer / -->
+  <footer>
+    <div class="contenedor">
+      <p>&copy; 2026 Felipe Ferraggine</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
